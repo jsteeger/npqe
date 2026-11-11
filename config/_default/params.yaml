@@ -149,7 +149,7 @@ hugoblox:
         - /
       disallow: []
       note: ""
-      contact: ""
+      # contact: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT
@@ -186,34 +186,34 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   comments:
     enable: false
-    provider: "" # giscus | disqus
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
-    disqus:
-      shortname: ""
+    # provider: "" # giscus | disqus
+    # giscus:
+    #   repo: ""
+    #   repo_id: ""
+    #   category: ""
+    #   category_id: ""
+    # disqus:
+    #   shortname: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # ANALYTICS
   # Traffic and behavior analytics
   # ────────────────────────────────────────────────────────────────────────────
-  analytics:
-    google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
-    google_tag_manager:
-      container_id: "" # GTM-XXXXXXX
-    plausible:
-      domain: ""
-    fathom:
-      site_id: ""
-    pirsch:
-      site_id: ""
-    clarity:
-      project_id: ""
-    baidu:
-      site_id: ""
+  # analytics:
+  #   google:
+  #     measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
+  #   google_tag_manager:
+  #     container_id: "" # GTM-XXXXXXX
+  #   plausible:
+  #     domain: ""
+  #   fathom:
+  #     site_id: ""
+  #   pirsch:
+  #     site_id: ""
+  #   clarity:
+  #     project_id: ""
+  #   baidu:
+  #     site_id: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # VERIFICATION
