@@ -25,7 +25,6 @@ cascade:
   - target:
       path: /slides/**
       kind: page
-    outputs: [HTML, present]
 
 ############################
 ## ADVANCED
@@ -33,9 +32,6 @@ cascade:
 
 build:
   writeStats: true
-  binaries:
-    tailwindcss:
-      command: ./node_modules/.bin/tailwindcss
 enableGitInfo: false
 summaryLength: 30
 pagination:
@@ -51,9 +47,9 @@ outputs:
 imaging:
   resampleFilter: Lanczos
   quality: 100
-  anchor: smart
+  anchor: Smart
   hint: picture
-timeout: 600000
+timeout: "600000s"
 taxonomies:
   author: authors
   tag: tags
