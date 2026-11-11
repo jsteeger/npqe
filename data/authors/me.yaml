@@ -1,0 +1,122 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: "Jer Steeger"
+  given: "Jer"
+  family: "Steeger"
+  alternate: ""
+  pronunciation: ""
+  pronouns: "they/he"
+postnominals:
+  - "PhD"
+status:
+  icon: ""
+role: "British Academy International Fellow"
+bio: "Jer Steeger is a historian and philosopher of physics taking a pluralist approach to
+  issues in quantum foundations and physics education research.\n"
+
+affiliations:
+  - name: "University of Bristol"
+    url: "https://research-information.bris.ac.uk/en/persons/jer-steeger/"
+  # - name: "University of Washington"
+  #   url: "https://www.uwb.edu/faculty/jer-steeger/"
+
+links:
+  - icon: "at-symbol"
+    url: "mailto:jer.steeger@bristol.ac.uk"
+    label: "E-mail Me"
+  - icon: "academicons/philpapers"
+    url: "https://philpeople.org/profiles/jer-steeger"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.co.uk/citations?user=2vwrADwAAAAJ&hl=en&oi=ao"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0003-2771-4145"
+
+interests:
+  - "Philosophy of Physics"
+  - "History and Philosophy of Science"
+  - "Philosophy of Probability"
+  - "Physics Education Research"
+  - "Epistemology (Formal and Feminist)"
+  - "Logic and Philosophy of Mathematics"
+
+education:
+  - degree: "PhD History and Philosophy of Science"
+    institution: "University of Notre Dame"
+    start: "September 2013"
+    end: "June 2019"
+  - degree: "BSc Physics"
+    institution: "MIT"
+    start: "September 2009"
+    end: "June 2013"
+
+experience:
+  - role: "British Academy International Fellow"
+    org: "University of Bristol"
+    start: "March 2024"
+    summary: "Work on the project [Credence and Chance in a Pluralist Approach to Quantum Theories.](/projects/credence-chance)\n"
+    # button:
+    #   text: "View project"
+    #   url: "/"
+    #   icon: "hero/arrow-down-tray"
+  - role: "Affiliate Assistant Professor"
+    org: "University of Washington, Bothell"
+    start: "January 2026"
+    summary: "Work on the project [Physics, Philosophy, Pedagogy](/projects/ppp) with Rachel E. Scherr.\n"
+    # button:
+    #   text: "View project"
+    #   url: "/"
+    #   icon: "hero/arrow-down-tray"
+  - role: "Lecturer"
+    org: "University of Washington"
+    start: "September 2023"
+    end: "March 2024"
+    summary: "Taught philosophy of science, introduction to philosophy, and intermediate logic.\n"
+    # button:
+    #   text: "View courses"
+    #   url: "/courses"
+    #   icon: "hero/arrow-down-tray"
+  - role: "Postdoctoral Scholar"
+    org: "University of Washington"
+    start: "September 2019"
+    end: "August 2023"
+    summary: "Worked on two NSF-funded projects concerning quantum foundations.\n"
+  - role: "EPIC Program Training Specialist"
+    org: "SafeCampus, University of Washington"
+    start: "September 2022"
+    end: "August 2023"
+    summary: "Conducted peer-led workshops on sexual harassment prevention.\n"
+
+# skills:
+#   - name: Technical Skills
+#     items:
+#       - label: Python
+#         level: 5
+#       - label: Machine Learning
+#         level: 5
+#       - label: Cloud Computing
+#         level: 4
+#   - name: Research & Communication
+#     items:
+#       - label: Academic Writing
+#         level: 5
+#       - label: Conference Presentations
+#         level: 4
+#       - label: Grant Proposals
+#         level: 4
+
+# languages:
+#   - name: English
+#     level: 5
+#     label: Native
+#   - name: Spanish
+#     level: 4
+#     label: Fluent
+
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy
