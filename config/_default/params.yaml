@@ -13,15 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Jer Steeger"
+    name: "NPQE"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
-    type: person # person | organization | local_business
+    type: organization # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Historian and Philosopher of Physics"
+    tagline: "New Perspectives on Quantum Epistemology"
     # Site meta description for search engines and social sharing
-    description: "Jer Steeger is a historian and philosopher of physics taking a pluralist approach to issues in quantum foundations and physics education research."
+    description: "The official website for the workshop New Perspectives on Quantum Epistemology, April 1-2, 2027."
     # Social accounts (used for meta tags like Twitter Cards)
     # social:
     #   twitter: "MakeOwnable" # Twitter/X handle for Twitter Cards (without @)
@@ -109,7 +109,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: false
     # Custom footer text (HTML supported)
-    text: ""
+    text: "Header photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)."
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
@@ -207,7 +207,7 @@ hugoblox:
   #   plausible:
   #     domain: ""
   #   fathom:
-  #     site_id: ""
+  #     site_id: ""H by 
   #   pirsch:
   #     site_id: ""
   #   clarity:

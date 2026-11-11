@@ -1,99 +1,136 @@
 ---
-title: ""
-summary: ""
-date: "2026-04-03"
+title: "Academic Workshop Landing Page"
+summary: "Landing page for a two-day academic workshop with sections for welcome, schedule, speakers, and registration."
+date: "2026-11-01"
 type: "landing"
-design:
-  spacing: "6rem"
 sections:
-  - block: "resume-biography"
+  - block: "hero"
     content:
-      username: "me"
-      button:
-        text: "CV"
-        icon: /hero/arrow-down-tray
-        url: "/uploads/resume.pdf"
+      image: "static/backgrounds/hero.jpg"
+      title: "New Perspectives on Quantum Epistemology"
+      eyebrow: "Academic Workshop"
+      text: "Join our two-day workshop!"
+      announcement:
+        badge:
+          text: "NEW"
+          color: "primary"
+        text: "Early bird registration open"
+      primary_action:
+        text: "Register Now"
+        style: "gradient"
+        icon: "hero/rocket-launch"
+        url: "#registration"
+      secondary_action:
+        text: "Learn More"
+        url: "#schedule"
+      media:
+        type: "image"
+        src: "hero.jpg"
     design:
-      biography:
-        # Customize the CSS style of your biography text (optional)
-        style: 'margin-left: 1em'
-    ue: "section-6-resume-biography"
-    As: "section-3c5142da"
+      background: null
+      spacing:
+        padding:
+          - "0rem"
+          - "0"
+          - "0rem"
+          - "0"
+      text_color_light: true
+      no_padding: true
+      size: "compact"
+      layout: "centered"
+    ce: "section-welcome"
+    id: "welcome"
+    As: "section-10abbff3"
   - block: "markdown"
     content:
-      title: "My Research"
-      subtitle: ""
+      title: "About NPQE"
+      text: "Photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) ![Hero test](static/backgrounds/hero.jpg)"
+    design:
+      background:
+        color:
+          light: "primary-50"
+          dark: "primary-900"
+      spacing:
+        padding:
+          - "4rem"
+          - "0"
+          - "4rem"
+          - "0"
+    ce: "section-about"
+    id: "about"
+    As: "section-8b735241"
+  - block: "markdown"
+    content:
+      title: "Workshop Schedule"
       text: |-
-        Hey there! I'm a historian and philosopher of physics taking a pluralist approach to issues in quantum foundations and physics education research. In recent years, my work has focused on the interpretation of quantum probability and issues of reduction and emergence in the relationship between classical and quantum mechanics.
+        **Day 1 (Nov 11):**
+        - Opening remarks and keynote presentations
+        - Research talks and poster sessions
 
-        My current project, [Credence and Chance in a Pluralist Approach to Quantum Theories,](/projects/credence-chance) develops novel technical results about the probabilities appearing in quantum mechanics that bridge and support several different interpretations of what that theory says about reality. The project also explores the utility of this pluralist approach for upper-level physics education, in collaboration with [Rachel E. Scherr.](/authors/rachel-e-scherr) 
-
-        Feel free to [shoot me an e-mail](mailto:jer.steeger@bristol.ac.uk) to say hi! 😸
+        **Day 2 (Nov 12):**
+        - Tutorials and workshops
+        - Panel discussions and networking events
     design:
-      columns: "1"
-    ue: "section-73c9c95d"
-    As: "section-2c11bbf5"
-  - block: "collection"
+      background:
+        color:
+          light: "primary-50"
+          dark: "primary-900"
+      spacing:
+        padding:
+          - "4rem"
+          - "0"
+          - "4rem"
+          - "0"
+    ce: "section-schedule"
+    id: "schedule"
+    As: "section-95285d93"
+  - block: "features"
     content:
-      title: "Featured Papers"
-      filters:
-        folders:
-          - "publications"
-        featured_only: true
+      title: "Our Speakers"
+      text: "Meet the experts leading the sessions at our workshop."
+      items:
+        - name: "Dr. Jane Smith"
+          description: "Expert in Computational Biology with 15 years of research experience."
+          icon: "academicons/orcid"
+        - name: "Prof. John Doe"
+          description: "Renowned Data Scientist and author of multiple celebrated papers."
+          icon: "academicons/orcid"
+        - name: "Dr. Emily Zhang"
+          description: "AI Researcher focused on novel machine learning models."
+          icon: "academicons/orcid"
     design:
-      view: "article-grid"
-      columns: 2
-      fill_image: false
-      show_read_time: false
-    ue: "section-papers"
-    id: "papers"
-    As: "section-f9f06406"
-  - block: "collection"
-    content:
-      title: "Recent Papers"
-      text: ""
-      filters:
-        folders:
-          - "publications"
-        exclude_featured: false
-    design:
-      view: "citation"
-    ue: "section-4f48622d"
-    id: "papers-selected"
-    As: "section-f2f7e1a9"
-  - block: "collection"
-    content:
-      title: "Recent & Upcoming Talks"
-      filters:
-        folders:
-          - "events"
-        featured_only: true
-    design:
-      fill_image: false
-      view: "card"
-      show_read_time: false
-    ue: "section-talks"
-    id: "talks"
-    As: "section-a4bf895f"
+      background:
+        color:
+          light: "white"
+          dark: "slate-900"
+      spacing:
+        padding:
+          - "4rem"
+          - "0"
+          - "4rem"
+          - "0"
+    ce: "section-speakers"
+    id: "speakers"
+    As: "section-30648426"
   - block: "cta-card"
-    demo: true
     content:
-      title: "👉 Build your own academic website like this"
-      text: |-
-        This site is generated by HugoBlox Kit - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/kit" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/kit on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
+      title: "Ready to Participate?"
+      text: "Secure your place at the workshop today! Early bird discounts available until October 15."
       button:
-        text: "Get Started"
-        url: "https://hugoblox.com/templates/"
+        text: "Register Today"
+        icon: "hero/arrow-right"
+        url: "https://example.com/register"
     design:
+      background:
+        gradient:
+          start: "secondary-600"
+          end: "secondary-400"
+          direction: 135
+        text_color_light: true
       card:
-        css_class: "bg-primary-300 dark:bg-primary-700"
-        css_style: ""
-    ue: "section-b1ac5961"
-    As: "section-04d03a04"
+        css_class: "glassmorphism-primary"
+        overlay_opacity: 0.2
+    ce: "section-registration"
+    id: "registration"
+    As: "section-c90158a6"
 ---
