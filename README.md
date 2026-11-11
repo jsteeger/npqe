@@ -1,1 +1,1 @@
-Jer Steeger's academic website, made with [Hugo Blox Kit.](https://github.com/HugoBlox/hugo-theme-academic-cv)
+The official website for the workshop New Perspectives on Quantum Epistemology, April 1-2, 2027.
