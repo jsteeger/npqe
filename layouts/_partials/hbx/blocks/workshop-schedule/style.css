@@ -1,3 +1,28 @@
+  .conf-schedule table {
+    table-layout: fixed !important;
+    width: 100% !important;
+  }
+
+  /* Override any theme min-width rules on table cells */
+  .conf-schedule th,
+  .conf-schedule td {
+    min-width: 0 !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Slightly tighter horizontal padding on the narrow Time column */
+  .conf-schedule th:first-child,
+  .conf-schedule td:first-child {
+    padding-left: 1.25rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  .conf-schedule th:last-child,
+  .conf-schedule td:last-child {
+    padding-right: 1.75rem !important;
+  }
+
 /* Smooth styling for the native details/summary toggle */
 .conf-schedule details > summary {
   list-style: none;

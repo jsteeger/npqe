@@ -16,40 +16,61 @@
   </div>
 
   <div class="overflow-x-auto">
-    {{/* table-fixed locks column proportions regardless of expanded abstract content */}}
-    <table class="w-full table-fixed text-left border-collapse">
+    <table class="w-full text-left border-collapse">
+      <colgroup>
+        <col style="width: 16%;">
+        <col style="width: 30%;">
+        <col style="width: 54%;">
+      </colgroup>
       <thead>
         <tr class="border-b-2 border-gray-300 dark:border-gray-700 text-sm uppercase tracking-wider text-gray-600 dark:text-gray-400">
-          <th class="py-3 pr-4 w-[20%]">Time</th>
-          <th class="py-3 px-4 w-[26%]">Speaker</th>
-          <th class="py-3 pl-4 w-[54%]">Title</th>
+          <th class="py-2">Time</th>
+          <th class="py-2">Speaker</th>
+          <th class="py-2">Title</th>
         </tr>
       </thead>
+
       <tbody class="divide-y divide-gray-200 dark:divide-gray-800 align-top">
         {{ range $slots }}
         <tr class="hover:bg-gray-50/50 dark:hover:bg-gray-800/30 transition-colors">
           
           {{/* Column 1: Day, Date, and Time */}}
-          <td class="py-5 pr-4 text-sm break-words">
+          <td class="py-2 pr-2 text-sm break-words">
             {{ with .day }}<div class="text-gray-500 dark:text-gray-400">{{ . }}</div>{{ end }}
             {{ with .date }}<div class="text-gray-500 dark:text-gray-400 mb-1">{{ . }}</div>{{ end }}
             {{ with .time }}<div class="font-bold text-base">{{ . }}</div>{{ end }}
           </td>
 
           {{/* Column 2: Speaker(s) & Affiliation(s) */}}
-          <td class="py-5 px-4 text-sm break-words">
+          <td class="py-2 px-2 text-sm break-words">
             {{ range .speakers }}
-              <div class="mb-3 last:mb-0">
-                <div class="font-semibold text-base">{{ .name }}</div>
-                {{ with .affiliation }}
-                  <div class="text-gray-600 dark:text-gray-400 text-xs mt-0.5">{{ . }}</div>
+              <div class="flex items-center gap-3 mb-4 last:mb-0">
+                {{/* Optional Speaker Profile Image (Left of Author Text) */}}
+                {{ with .avatar }}
+                  {{ $imgSrc := . }}
+                  {{ with resources.GetMatch (printf "**%s" .) }}
+                    {{ $resized := .Fill "160x160 Center Lanczos webp q95" }}
+                    {{ $imgSrc = $resized.RelPermalink }}
+                  {{ end }}
+                  <img
+                    src="{{ $imgSrc }}"
+                    alt="{{ $.name }}"
+                    class="w-16 h-16 rounded-full object-cover shrink-0 border border-gray-200 dark:border-gray-700"
+                  />
                 {{ end }}
+
+                <div class="min-w-0">
+                  <div class="font-semibold text-base leading-snug">{{ .name }}</div>
+                  {{ with .affiliation }}
+                    <div class="text-gray-600 dark:text-gray-400 text-xs mt-0.5">{{ . }}</div>
+                  {{ end }}
+                </div>
               </div>
             {{ end }}
           </td>
 
           {{/* Column 3: Talk(s), Slides/Handouts, and Collapsible Abstract */}}
-          <td class="py-5 pl-4 text-sm break-words">
+          <td class="py-2 pl-2 text-sm break-words">
             {{ range .talks }}
               <div class="mb-4 last:mb-0">
                 <div class="font-medium text-base">
@@ -63,7 +84,7 @@
                 {{ with .links }}
                   <div class="flex flex-wrap gap-3 mt-1.5">
                     {{ range . }}
-                      <a href="{{ .url }}" target="_blank" rel="noopener" class="inline-flex items-center text-xs font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                      <a href="{{ .url }}" target="_blank" rel="noopener" class="inline-flex items-center text-xs font-medium text-primary-600 dark:text-primary-400 hover:underline">
                         {{ .label }}
                       </a>
                     {{ end }}

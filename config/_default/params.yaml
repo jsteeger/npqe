@@ -15,9 +15,9 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "NPQE"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "Jer Steeger"
     # Schema.org type for structured data
-    type: organization # person | organization | local_business
+    type: person # person | organization | local_business
     # Short tagline displayed on your site
     tagline: "New Perspectives on Quantum Epistemology"
     # Site meta description for search engines and social sharing

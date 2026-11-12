@@ -8,15 +8,14 @@ sections:
 
   - block: "hero"
     content:
-      image: "static/backgrounds/hero.jpg"
       title: "New Perspectives on Quantum Epistemology"
       eyebrow: "Academic Workshop"
       text: "Join our two-day workshop!"
-      announcement:
-        badge:
-          text: "NEW"
-          color: "primary"
-        text: "Early bird registration open"
+      # announcement:
+      #   badge:
+      #     text: "NEW"
+      #     color: "primary"
+      #   text: "Early bird registration open"
       primary_action:
         text: "Register Now"
         style: "gradient"
@@ -27,14 +26,19 @@ sections:
         url: "#schedule"
       media: {}
     design:
-      background: null
+      css_class: dark
+      background:
+        image:
+          filename: backgrounds/hero.jpg
+          filters:
+            # blur: 6px        # Creates the soft, fuzzy look
+            brightness: 0.6  # Dims the image slightly so text pops
       spacing:
         padding:
-          - "0rem"
+          - "1rem"
           - "0"
-          - "0rem"
+          - "4rem"
           - "0"
-      text_color_light: true
       no_padding: true
       size: "compact"
       layout: "centered"
@@ -45,7 +49,7 @@ sections:
 
   - block: "markdown"
     content:
-      title: "About NPQE"
+      title: "About"
       text: "Photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) ![Hero test](static/backgrounds/hero.jpg)"
     design:
       background:
@@ -61,32 +65,6 @@ sections:
     ce: "section-about"
     id: "about"
     As: "section-8b735241"
-
-  - block: "markdown"
-    content:
-      title: "Workshop Schedule"
-      text: |-
-        **Day 1 (Nov 11):**
-        - Opening remarks and keynote presentations
-        - Research talks and poster sessions
-
-        **Day 2 (Nov 12):**
-        - Tutorials and workshops
-        - Panel discussions and networking events
-    design:
-      background:
-        color:
-          light: "primary-50"
-          dark: "primary-900"
-      spacing:
-        padding:
-          - "4rem"
-          - "0"
-          - "4rem"
-          - "0"
-    ce: "section-schedule"
-    id: "schedule"
-    As: "section-95285d93"
 
   - block: "features"
     content:
@@ -117,45 +95,25 @@ sections:
     id: "speakers"
     As: "section-30648426"
 
-  - block: "cta-card"
-    content:
-      title: "Ready to Participate?"
-      text: "Secure your place at the workshop today! Early bird discounts available until October 15."
-      button:
-        text: "Register Today"
-        icon: "hero/arrow-right"
-        url: "https://example.com/register"
-    design:
-      background:
-        gradient:
-          start: "secondary-600"
-          end: "secondary-400"
-          direction: 135
-        text_color_light: true
-      card:
-        css_class: "glassmorphism-primary"
-        overlay_opacity: 0.2
-    ce: "section-registration"
-    id: "registration"
-    As: "section-c90158a6"
-  
-  - block: cta-banner
-    id: join-us
-    content:
-      title: Join Our Research Lab
-      text: We are currently recruiting **PhD students** and **postdocs** for Fall 2026.
-      button:
-        text: View Open Positions
-        url: /careers/
-    design:
-      background:
-        color: "#e0f2fe"
-
   - block: workshop-schedule
     id: schedule
     content:
       subtitle: The presentations will be 45 minutes, followed by a discussion of 30 minutes.
       slots:
+        - day: Wednesday
+          date: 18 December
+          time: "9:00 – 10:15"
+          speakers:
+            - name: Gert de Cooman
+              avatar: me.png
+              affiliation: University of Bristol
+          talks:
+            - title: Foundations of Imprecise Probability
+              links:
+                - label: slides
+                  url: /uploads/doe-slides.pdf
+              abstract: |
+                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
         - day: Wednesday
           date: 18 December
           time: "9:00 – 10:15"
@@ -168,6 +126,6 @@ sections:
                 - label: slides
                   url: /uploads/doe-slides.pdf
               abstract: |
-                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.    
         # (Additional multi-speaker and split session slots can be added following 
 ---
