@@ -1,0 +1,10 @@
+.cta-banner {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Dark mode support */
+.dark .cta-banner {
+  background-color: #1f2937 !important;
+  color: #f9fafb;
+}

@@ -1,0 +1,31 @@
+{{/* Retrieve the block configuration passed from _index.md */}}
+{{ $block := . }}
+
+{{/* Extract variables with fallback defaults */}}
+{{ $title := $block.content.title | default "Ready to get started?" }}
+{{ $text := $block.content.text | default "" }}
+{{ $button_text := $block.content.button.text | default "Learn More" }}
+{{ $button_url := $block.content.button.url | default "/" }}
+
+{{/* Optional design settings */}}
+{{ $bg_color := $block.design.background.color | default "#f3f4f6" }}
+
+<section class="cta-banner py-12 px-6 text-center" style="background-color: {{ $bg_color }};">
+  <div class="max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4">
+      {{ $title | markdownify }}
+    </h2>
+
+    {{ with $text }}
+      <div class="text-lg mb-6 opacity-90">
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
+
+    {{ with $button_url }}
+      <a href="{{ . }}" class="cta-button inline-block px-6 py-3 rounded-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 transition">
+        {{ $button_text }}
+      </a>
+    {{ end }}
+  </div>
+</section>

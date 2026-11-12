@@ -1,9 +1,11 @@
 ---
-title: "Academic Workshop Landing Page"
-summary: "Landing page for a two-day academic workshop with sections for welcome, schedule, speakers, and registration."
+title: "New Perspectives on Quantum Epistemology"
+summary: "The official website for the workshop New Perspectives on Quantum Epistemology, April 1-2, 2027."
 date: "2026-11-01"
 type: "landing"
+
 sections:
+
   - block: "hero"
     content:
       image: "static/backgrounds/hero.jpg"
@@ -40,6 +42,7 @@ sections:
     ce: "section-welcome"
     id: "welcome"
     As: "section-10abbff3"
+
   - block: "markdown"
     content:
       title: "About NPQE"
@@ -58,6 +61,7 @@ sections:
     ce: "section-about"
     id: "about"
     As: "section-8b735241"
+
   - block: "markdown"
     content:
       title: "Workshop Schedule"
@@ -83,6 +87,7 @@ sections:
     ce: "section-schedule"
     id: "schedule"
     As: "section-95285d93"
+
   - block: "features"
     content:
       title: "Our Speakers"
@@ -111,6 +116,7 @@ sections:
     ce: "section-speakers"
     id: "speakers"
     As: "section-30648426"
+
   - block: "cta-card"
     content:
       title: "Ready to Participate?"
@@ -132,4 +138,16 @@ sections:
     ce: "section-registration"
     id: "registration"
     As: "section-c90158a6"
+  
+  - block: cta-banner
+    id: join-us
+    content:
+      title: Join Our Research Lab
+      text: We are currently recruiting **PhD students** and **postdocs** for Fall 2026.
+      button:
+        text: View Open Positions
+        url: /careers/
+    design:
+      background:
+        color: "#e0f2fe"
 ---
