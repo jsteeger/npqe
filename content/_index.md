@@ -23,9 +23,7 @@ sections:
       secondary_action:
         text: "Learn More"
         url: "#schedule"
-      media:
-        type: "image"
-        src: "hero.jpg"
+      media: {}
     design:
       background: null
       spacing:
@@ -38,6 +36,7 @@ sections:
       no_padding: true
       size: "compact"
       layout: "centered"
+      alignment: "center"
     ce: "section-welcome"
     id: "welcome"
     As: "section-10abbff3"
