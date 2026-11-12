@@ -1,0 +1,34 @@
+/* Smooth styling for the native details/summary toggle */
+.conf-schedule details > summary {
+  list-style: none;
+}
+
+.conf-schedule details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.conf-schedule details > summary::before {
+  content: "▸ ";
+  display: inline-block;
+  transition: transform 0.15s ease-in-out;
+}
+
+.conf-schedule details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Stack table cells cleanly on small mobile screens */
+@media (max-width: 640px) {
+  .conf-schedule thead {
+    display: none;
+  }
+  .conf-schedule tr {
+    display: block;
+    padding: 1rem 0;
+  }
+  .conf-schedule td {
+    display: block;
+    padding: 0.25rem 0;
+    width: 100% !important;
+  }
+}

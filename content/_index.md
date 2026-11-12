@@ -150,4 +150,24 @@ sections:
     design:
       background:
         color: "#e0f2fe"
+
+  - block: workshop-schedule
+    id: schedule
+    content:
+      subtitle: The presentations will be 45 minutes, followed by a discussion of 30 minutes.
+      slots:
+        - day: Wednesday
+          date: 18 December
+          time: "9:00 – 10:15"
+          speakers:
+            - name: Jane Doe
+              affiliation: University of Bristol
+          talks:
+            - title: Foundations of Imprecise Probability
+              links:
+                - label: slides
+                  url: /uploads/doe-slides.pdf
+              abstract: |
+                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        # (Additional multi-speaker and split session slots can be added following 
 ---
