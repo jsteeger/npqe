@@ -109,7 +109,7 @@ hugoblox:
     style: minimal # minimal | columns | centered
     language_switcher: false
     # Custom footer text (HTML supported)
-    text: "Header photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)."
+    text: "Hero photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText). Custom blocks based on [Conf-Boilerplate](https://github.com/braziljs/conf-boilerplate) and coded with the assistance of [Gemini](https://gemini.google.com/app?hl=en-GB)."
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT

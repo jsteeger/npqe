@@ -10,7 +10,7 @@ sections:
     content:
       title: "New Perspectives on Quantum Epistemology"
       eyebrow: "Academic Workshop"
-      text: "Join our two-day workshop!"
+      text: "A two-day workshop on the intersections of quantum foundations and formal epistemology at the University of Bristol, April 1-2, 2027."
       # announcement:
       #   badge:
       #     text: "NEW"
@@ -32,7 +32,7 @@ sections:
           filename: backgrounds/hero.jpg
           filters:
             # blur: 6px        # Creates the soft, fuzzy look
-            brightness: 0.6  # Dims the image slightly so text pops
+            brightness: 0.4  # Dims the image slightly so text pops
       spacing:
         padding:
           - "1rem"
@@ -50,7 +50,17 @@ sections:
   - block: "markdown"
     content:
       title: "About"
-      text: "Photo by [Danny Lines](https://unsplash.com/@dannylines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Upsplash](https://unsplash.com/photos/purple-and-black-abstract-painting-i8zEGCKBxQY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) ![Hero test](static/backgrounds/hero.jpg)"
+      text: |
+        #### *How do we become confident in claims about things too small to see?*
+        #### *How might the behavior of those exotic things alter our approach to uncertain reasoning?*
+        
+        Careful attention to the role of probability in quantum foundations has profound implications for both of these questions. This workshop collects a diverse group of physicists and philosophers who have given them novel answers in recent years, covering topics including:
+        - the relationship between quantum probabilities and dynamical symmetries;
+        - how quantum probabilities inform ontology;
+        - how they suggest modifications of formal and/or general epistemology; and 
+        - how they improve models of human memory.
+
+        This workshop is the capstone event of Jer Steeger's project [Credence and Chance in a Pluralist Approach to Quantum Theories](https://jsteeger.github.io/projects/credence-chance/) and is generously supported by the British Academy under Grant No. IF23\100451.
     design:
       background:
         color:
@@ -60,40 +70,11 @@ sections:
         padding:
           - "4rem"
           - "0"
-          - "4rem"
+          - "0rem"
           - "0"
     ce: "section-about"
     id: "about"
     As: "section-8b735241"
-
-  - block: "features"
-    content:
-      title: "Our Speakers"
-      text: "Meet the experts leading the sessions at our workshop."
-      items:
-        - name: "Dr. Jane Smith"
-          description: "Expert in Computational Biology with 15 years of research experience."
-          icon: "academicons/orcid"
-        - name: "Prof. John Doe"
-          description: "Renowned Data Scientist and author of multiple celebrated papers."
-          icon: "academicons/orcid"
-        - name: "Dr. Emily Zhang"
-          description: "AI Researcher focused on novel machine learning models."
-          icon: "academicons/orcid"
-    design:
-      background:
-        color:
-          light: "white"
-          dark: "slate-900"
-      spacing:
-        padding:
-          - "4rem"
-          - "0"
-          - "4rem"
-          - "0"
-    ce: "section-speakers"
-    id: "speakers"
-    As: "section-30648426"
 
   - block: workshop-schedule
     id: schedule
@@ -120,12 +101,12 @@ sections:
           speakers:
             - name: Jane Doe
               affiliation: University of Bristol
+            - name: John Smith
           talks:
             - title: Foundations of Imprecise Probability
               links:
                 - label: slides
                   url: /uploads/doe-slides.pdf
               abstract: |
-                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.    
-        # (Additional multi-speaker and split session slots can be added following 
+                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
 ---
