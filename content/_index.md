@@ -21,9 +21,9 @@ sections:
         style: "gradient"
         icon: "hero/rocket-launch"
         url: "#registration"
-      secondary_action:
-        text: "Learn More"
-        url: "#schedule"
+      # secondary_action:
+      #   text: "Learn More"
+      #   url: "#schedule"
       media: {}
     design:
       css_class: dark
@@ -55,13 +55,14 @@ sections:
         #### *How might the behavior of those exotic things alter our approach to uncertain reasoning?*
         
         This workshop collects a diverse group of physicists and philosophers who have given these questions novel answers in recent years, covering topics including:
-        - the relationship between quantum probabilities and dynamical symmetries;
-        - how quantum probabilities inform ontology;
-        - how they suggest modifications of formal and/or general epistemology; and 
-        - how they improve models of human memory.
+        - how quantum probabilities relate to dynamical symmetries
+        - how quantum probabilities inform ontology
+        - how quatnum foundations might modify formal and general epistemology 
+        - how quantum approaches can improve models of human memory
 
-        This event is the capstone of Jer Steeger's project [Credence and Chance in a Pluralist Approach to Quantum Theories](https://jsteeger.github.io/projects/credence-chance/) and is generously supported by the British Academy under Grant No. IF23\100451.
+        This event is organized by [Jer Steeger](https://jsteeger.github.io/) (chair) and [James Read.](https://www.philosophy.ox.ac.uk/people/james-read) It is the capstone event of the project [Credence and Chance in a Pluralist Approach to Quantum Theories,](https://jsteeger.github.io/projects/credence-chance/) which is generously supported by the British Academy under Grant No. IF23\100451.
     design:
+      layout: "full"
       background:
         color:
           light: "primary-50"
@@ -69,9 +70,10 @@ sections:
       spacing:
         padding:
           - "4rem"
-          - "0"
           - "0rem"
-          - "0"
+          - "0rem"
+          - "0rem"
+      css_class: "max-w-5xl mx-auto my-4"
     ce: "section-about"
     id: "about"
     As: "section-8b735241"
@@ -81,73 +83,200 @@ sections:
     design:
       spacing:
         padding:
-          - "4rem"
+          - "2rem"
           - "0"
-          - "0rem"
+          - "2rem"
           - "0"
     content:
       title: Speakers and Talks
-      subtitle: Each presentation will be 45 minutes and followed by a discussion of 30 minutes.
+      subtitle: Each presentation will be 40 minutes and followed by a discussion of 35 minutes.
       slots:
-        - day: Wednesday
-          date: 18 December
+        - day: Thursday
+          date: 1 April
           time: "9:00 – 10:15"
           speakers:
-            - name: Gert de Cooman
+            - name: Emily Adlam
+              avatar: emily-adlam.jpg
+              affiliation: Chapman University
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Thursday
+          date: 1 April
+          time: "10:30 – 11:45"
+          speakers:
+            - name: Jacob Barandes
+              avatar: jacob-barandes.png
+              affiliation: Harvard University
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Thursday
+          date: 1 April
+          time: "13:00 – 14:15"
+          speakers:
+            - name: Nadia Blackshaw
+              avatar: nadia-blackshaw.webp
+              affiliation: London School of Economics
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Thursday
+          date: 1 April
+          time: "14:15 – 15:30"
+          speakers:
+            - name: Keano De Vos
+              avatar: blank.avif
+              affiliation: University of Gent
+            - name: Gert De Cooman
+              avatar: gert-de-cooman.webp
+              affiliation: University of Gent
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Thursday
+          date: 1 April
+          time: "15:45 – 17:00"
+          speakers:
+            - name: Fay Dowker
+              avatar: fay-dowker.webp
+              affiliation: Imperial College London
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Friday
+          date: 2 April
+          time: "9:00 – 10:15"
+          speakers:
+            - name: Henry Groves
+              avatar: henry-groves.jpg
+              affiliation: Newcastle University
+            - name: Lucia F. Jackson
+              avatar: blank.avif
+              affiliation: Newcastle University
+            - name: Barbara-Anne Robertson
+              avatar: barbara-anne-robertson.jpg
+              affiliation: Newcastle University
+            - name: Jonte Hance
+              avatar: jonte-hance.webp
+              affiliation: Newcastle University
+          talks:
+            - title: Modelling Emotional Memory in Children with Tensor Networks
+              links:
+                - label: preprint
+                  url: https://arxiv.org/html/2606.28470v1
+              abstract: |
+                We demonstrate how emotional valence influences the order-dependent structure of children’s recognition memory: correct recall of a sequence of emotionally-valenced toys depended not just on the valence of a given toy itself, but also on the valence of the toys shown before and after it. Whilst standard psychological models confirm that order-dependence differs across an event (a set of toys shown in sequence), accuracy is low and the model does not reflect how memory for an emotional object influences others in the set. A classical tensor network model factoring in valence is able to achieve a 77.98% accuracy in modelling the results of the study. While not strictly a “quantum cognition” model, this massive increase in accuracy shows the value of quantum-inspired methods for modelling order-dependent phenomena, such as emotional memory. Further, the task protocol we introduce presents a novel, real-world tool for exploring emotional temporal memory in children for analysis using classical and quantum-like models of cognition.
+        - day: Friday
+          date: 2 April
+          time: "10:30 – 11:45"
+          speakers:
+            - name: Joanna Luc
+              avatar: joanna-luc.jpg
+              affiliation: Jagiellonian University
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Friday
+          date: 2 April
+          time: "13:00 – 14:15"
+          speakers:
+            - name: Ray Pedersen
+              avatar: ray-pedersen.jpg
+              affiliation: University of Oxford
+          talks:
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Friday
+          date: 2 April
+          time: "14:15 – 15:30"
+          speakers:
+            - name: Jer Steeger
               avatar: me.png
               affiliation: University of Bristol
+            - name: James Read
+              avatar: james-read.jpg
+              affiliation: University of Oxford
           talks:
-            - title: Foundations of Imprecise Probability
-              links:
-                - label: slides
-                  url: /uploads/doe-slides.pdf
-              abstract: |
-                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
-        - day: Wednesday
-          date: 18 December
-          time: "9:00 – 10:15"
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+        - day: Friday
+          date: 2 April
+          time: "15:45 – 17:00"
           speakers:
-            - name: Jane Doe
+            - name: Karim Thébault
+              avatar: karim-thebault.jpg
               affiliation: University of Bristol
-            - name: John Smith
           talks:
-            - title: Foundations of Imprecise Probability
-              links:
-                - label: slides
-                  url: /uploads/doe-slides.pdf
-              abstract: |
-                In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+            - title: TBA
+              # links:
+              #   - label: slides
+              #     url: /uploads/doe-slides.pdf
+              # abstract: |
+              #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
 
   - block: location
     id: location
     design:
       spacing:
         padding:
-          - "4rem"
+          - "2rem"
           - "0"
-          - "0rem"
+          - "2rem"
           - "0"
     content:
       title: Locations
       zoom: 16
       locations:
-        - venue: Durham Convention Center
-          address: 301 W Morgan St, Durham, NC 27701
-          lat: 35.9968
-          lng: -78.9045
+        - venue: Arts Complex Lecture Theatre 2
+          address: Arts Complex, 11 Woodland Road, BS8 1TB
+          lat: 51.460502049235046
+          lng: -2.604044903683711
           text: |
-            **Main Conference Venue** — Keynotes and breakout sessions. Check-in opens at 8:00 AM in the Main Lobby.
-        - venue: The Carolina Theatre
-          address: 309 W Morgan St, Durham, NC 27701
-          lat: 35.9972
-          lng: -78.9036
-          text: |
-            **Evening Reception** — Doors open at 6:30 PM, directly across the plaza.
-        - venue: Durham Amtrak Station
-          address: 601 W Main St, Durham, NC 27701
-          lat: 35.9976
-          lng: -78.9073
+            **Main Workshop Venue** — All talks. Coffee and lunch will be provided in the adjacent lobby.
+        # - venue: The Carolina Theatre
+        #   address: 309 W Morgan St, Durham, NC 27701
+        #   lat: 35.9972
+        #   lng: -78.9036
+        #   text: |
+        #     **Workshop Dinner** — Doors open at 6:30 PM, directly across the plaza.
+        - venue: Temple Meads Station
+          address: Redcliffe, Bristol BS1 6QF
+          lat: 51.44980698342558
+          lng: -2.580622863958044
           zoom: 15
           text: |
-            **Transit Hub** — 8-minute walk west along W Main St.
+            **Transit Hub** — 40-minute walk from the workshop venue.
 ---

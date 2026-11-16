@@ -73,7 +73,7 @@ hugoblox:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
     radius: "md"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
+    spacing: "compact"
     # Avatar shape in author profiles
     avatar_shape: circle # circle | square | rounded
 
@@ -82,15 +82,15 @@ hugoblox:
   # Site header and navigation bar
   # ────────────────────────────────────────────────────────────────────────────
   header:
-    enable: false
+    enable: true
     # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
+    style: navbar-simple # navbar | navbar-simple
     # Stick to top on scroll
     sticky: true
     # Menu alignment
-    align: right # left | center | right
+    align: center # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: false
     theme_picker: false
     language_switcher: false
@@ -161,7 +161,7 @@ hugoblox:
       enable: true
     # Table of contents
     toc:
-      enable: true
+      enable: false
     # Reading time estimates
     reading_time:
       enable: false

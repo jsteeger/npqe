@@ -1,0 +1,15 @@
+/* Override both the outer section and the inner prose text container */
+#about .max-w-prose,
+#about .prose,
+#about .container {
+  max-width: 64rem !important; /* Exact width of max-w-5xl (1024px) */
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Adjust top and bottom outer margins of the block itself */
+#about {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
