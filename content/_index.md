@@ -138,7 +138,7 @@ sections:
           time: "14:15 – 15:30"
           speakers:
             - name: Keano De Vos
-              avatar: blank.avif
+              avatar: blank.jpg
               affiliation: University of Gent
             - name: Gert De Cooman
               avatar: gert-de-cooman.webp
@@ -172,7 +172,7 @@ sections:
               avatar: henry-groves.jpg
               affiliation: Newcastle University
             - name: Lucia F. Jackson
-              avatar: blank.avif
+              avatar: blank.jpg
               affiliation: Newcastle University
             - name: Barbara-Anne Robertson
               avatar: barbara-anne-robertson.jpg
