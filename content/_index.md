@@ -96,7 +96,7 @@ sections:
           time: "9:00 – 10:15"
           speakers:
             - name: Emily Adlam
-              avatar: emily-adlam.jpg
+              # avatar: emily-adlam.jpg
               affiliation: Chapman University
           talks:
             - title: TBA
@@ -110,7 +110,7 @@ sections:
           time: "10:30 – 11:45"
           speakers:
             - name: Jacob Barandes
-              avatar: jacob-barandes.png
+              # avatar: jacob-barandes.png
               affiliation: Harvard University
           talks:
             - title: TBA
@@ -124,7 +124,7 @@ sections:
           time: "13:00 – 14:15"
           speakers:
             - name: Nadia Blackshaw
-              avatar: nadia-blackshaw.webp
+              # avatar: nadia-blackshaw.webp
               affiliation: London School of Economics
           talks:
             - title: TBA
@@ -138,10 +138,10 @@ sections:
           time: "14:15 – 15:30"
           speakers:
             - name: Keano De Vos
-              avatar: blank.jpg
+              # avatar: blank.jpg
               affiliation: University of Gent
             - name: Gert De Cooman
-              avatar: gert-de-cooman.webp
+              # avatar: gert-de-cooman.webp
               affiliation: University of Gent
           talks:
             - title: TBA
@@ -155,7 +155,7 @@ sections:
           time: "15:45 – 17:00"
           speakers:
             - name: Fay Dowker
-              avatar: fay-dowker.webp
+              # avatar: fay-dowker.webp
               affiliation: Imperial College London
           talks:
             - title: TBA
@@ -169,16 +169,16 @@ sections:
           time: "9:00 – 10:15"
           speakers:
             - name: Henry Groves
-              avatar: henry-groves.jpg
+              # avatar: henry-groves.jpg
               affiliation: Newcastle University
             - name: Lucia F. Jackson
-              avatar: blank.jpg
+              # avatar: blank.jpg
               affiliation: Newcastle University
             - name: Barbara-Anne Robertson
-              avatar: barbara-anne-robertson.jpg
+              # avatar: barbara-anne-robertson.jpg
               affiliation: Newcastle University
             - name: Jonte Hance
-              avatar: jonte-hance.webp
+              # avatar: jonte-hance.webp
               affiliation: Newcastle University
           talks:
             - title: Modelling Emotional Memory in Children with Tensor Networks
@@ -192,7 +192,7 @@ sections:
           time: "10:30 – 11:45"
           speakers:
             - name: Joanna Luc
-              avatar: joanna-luc.jpg
+              # avatar: joanna-luc.jpg
               affiliation: Jagiellonian University
           talks:
             - title: TBA
@@ -206,7 +206,7 @@ sections:
           time: "13:00 – 14:15"
           speakers:
             - name: Ray Pedersen
-              avatar: ray-pedersen.jpg
+              # avatar: ray-pedersen.jpg
               affiliation: University of Oxford
           talks:
             - title: TBA
@@ -220,10 +220,10 @@ sections:
           time: "14:15 – 15:30"
           speakers:
             - name: Jer Steeger
-              avatar: me.png
+              # avatar: me.png
               affiliation: University of Bristol
             - name: James Read
-              avatar: james-read.jpg
+              # avatar: james-read.jpg
               affiliation: University of Oxford
           talks:
             - title: TBA
@@ -237,7 +237,7 @@ sections:
           time: "15:45 – 17:00"
           speakers:
             - name: Karim Thébault
-              avatar: karim-thebault.jpg
+              # avatar: karim-thebault.jpg
               affiliation: University of Bristol
           talks:
             - title: TBA
