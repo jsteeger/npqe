@@ -79,17 +79,17 @@ sections:
     As: "section-8b735241"
 
   - block: workshop-schedule
-    id: schedule
+    id: day-1
     design:
       spacing:
         padding:
           - "2rem"
           - "0"
-          - "2rem"
+          - "0rem"
           - "0"
     content:
-      title: Speakers and Talks
-      subtitle: Each presentation will be 40 minutes and followed by a discussion of 35 minutes.
+      title: Day 1 Talks
+      # subtitle: Each presentation will be 40 minutes and followed by a discussion of 35 minutes.
       slots:
         - day: Thursday
           date: 1 April
@@ -164,6 +164,20 @@ sections:
               #     url: /uploads/doe-slides.pdf
               # abstract: |
               #   In this talk, we explore the foundations of imprecise probability and lower/upper previsions.
+
+  - block: workshop-schedule
+    id: day-2
+    design:
+      spacing:
+        padding:
+          - "0rem"
+          - "0"
+          - "2rem"
+          - "0"
+    content:
+      title: Day 2 Talks
+      # subtitle: Each presentation will be 40 minutes and followed by a discussion of 35 minutes.
+      slots:
         - day: Friday
           date: 2 April
           time: "9:00 – 10:15"

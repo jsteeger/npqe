@@ -7,9 +7,12 @@ main:
   - name: About
     url: /#about
     weight: 10
-  - name: Speakers and Talks
-    url: /#schedule
+  - name: Day 1 Talks
+    url: /#day-1
     weight: 11
+  - name: Day 2 Talks
+    url: /#day-2
+    weight: 12
   - name: Locations
     url: /#location
-    weight: 12
+    weight: 13
